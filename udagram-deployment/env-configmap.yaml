@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+   name: env-config
+data:
+   POSTGRES_HOST: chinnm1.cu5vpa8c9eap.us-west-2.rds.amazonaws.com
+   POSTGRES_DB: postgres
+   AWS_BUCKET: test-862029645377-dev
+   AWS_REGION: us-west-2
+   AWS_PROFILE: default
+   JWT_SECRET: thisissecret
+   URL: http://localhost:8100
+   NODE_OPTIONS: --max-old-space-size=1024
+
+
+sửa rds url, s3 bucket, region
