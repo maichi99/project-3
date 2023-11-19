@@ -5,7 +5,7 @@ metadata:
 data:
    POSTGRES_HOST: chinnm1.cu5vpa8c9eap.us-west-2.rds.amazonaws.com
    POSTGRES_DB: postgres
-   AWS_BUCKET: test-862029645377-dev
+   AWS_BUCKET: myefbucket
    AWS_REGION: us-west-2
    AWS_PROFILE: default
    JWT_SECRET: thisissecret
