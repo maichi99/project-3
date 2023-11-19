@@ -13,4 +13,3 @@ data:
    NODE_OPTIONS: --max-old-space-size=1024
 
 
-sửa rds url, s3 bucket, region
